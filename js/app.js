@@ -54,7 +54,8 @@ else
     alert('your answer is incorrect');
 }
 
-let qus6 = prompt('Now guess the number between 0-50 ?');
+let q6 =function(){
+  let qus6 = prompt('Now guess the number between 0-50 ?');
 for (let i=4 ; i>1 ; i--)
 {
   if (qus6==17)
@@ -75,8 +76,15 @@ for (let i=4 ; i>1 ; i--)
 
   }
 }
+
+
+} 
+q6();
 alert('The correct answer was 17 ');
-let num=[12 , 49 , 97]
+
+let q7=function(){
+
+  let num=[12 , 49 , 97]
 alert('Now I have 3 number in my mind  ')
 let qus7 = prompt('let you guess one number of them between 0-100 (you have 6 attemp)');
 for (let z=5 ; z>0 ; z--)
@@ -93,6 +101,9 @@ for (let z=5 ; z>0 ; z--)
     
   }
 }
+}
+q7();
+
 if (score>4)
 {
   alert('You have are great person you have got  '+score+' out of 7')
