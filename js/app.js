@@ -3,6 +3,8 @@ let score=0;
 let n=prompt('please Enter your name ?')
 alert('Welcom '+n+' in my webpage');
 alert('please answer the following qustions with yes/no  OR  y/n');
+let q1 = function(){
+
 let qus1 = prompt('Am I from Jordan ?').toLowerCase();
 if(qus1=='yes' || qus1=='y'){
     console.log('yes is a correct answer');
@@ -13,6 +15,10 @@ else
 {
     alert('your answer is incorrect')
 }
+}
+q1();
+let q2 = function(){
+
 let qus2 = prompt('Do I like pizza ?').toLowerCase();
 if(qus2=='yes'|| qus2=='y'){
     console.log('yes is a correct answer');
@@ -23,6 +29,11 @@ else
 {
     alert('your answer is incorrect')
 }
+}
+q2();
+
+let q3 = function(){
+
 let qus3 = prompt('Do I have a car ?').toLowerCase();
 if(qus3=='no'|| qus3=='n'){
     console.log('no is a correct answer');
@@ -33,6 +44,9 @@ else
 {
     alert('your answer is incorrect')
 }
+}
+q3();
+let q4 = function(){
 let qus4 = prompt('Do I like playing card ?').toLowerCase();
 if(qus4=='yes'|| qus4=='y'){
     console.log('yes is a correct answer');
@@ -43,6 +57,9 @@ else
 {
     alert('your answer is incorrect')
 }
+}
+q4();
+let q5 = function(){
 let qus5 = prompt('Do I like parsley ?').toLowerCase();
 if(qus5=='no'|| qus5=='n'){
     console.log('no is a correct answer');
@@ -53,6 +70,8 @@ else
 {
     alert('your answer is incorrect');
 }
+}
+q5();
 
 let q6 =function(){
   let qus6 = prompt('Now guess the number between 0-50 ?');
