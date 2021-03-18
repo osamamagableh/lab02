@@ -4,3 +4,9 @@ img{
 body{
 background-color: rgb(72, 223, 13);
 }
+h1{
+    font-family: 'Syne Mono', monospace;
+}
+ol li{
+    font-family: 'Redressed', cursive;
+}
